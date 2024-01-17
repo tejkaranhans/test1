@@ -81,7 +81,7 @@ class _SpeechToTextPage extends State<SpeechToTextPage> {
     _speechEnabled = await _speechToText.initialize();
   }
 
-  /// Each time to start a speech recognition session
+  /// Each time to start a speech recognition session dfdfdsfdsfdsfdsfdsfds
   void _startListening() async {
     _lastWords = "";
     await _speechToText.listen(
